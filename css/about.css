@@ -134,10 +134,15 @@
 
 .main{
     display: flex;
+    
 }
 
 .section{
-    height:1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height:1200px;
     width: 85%;
 
     margin:25px 25px 0 40px;
@@ -145,7 +150,7 @@
 }
 
 .side_nav{
-    height: 1700px;
+    height: 1200px;
     width: 160px;;
     margin: 25px;
     padding-left:12px;
@@ -187,6 +192,53 @@
     color: rgb(32, 31, 31);
     font-size:19px;
 }
+.section .about_info{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin: 50px 20px 10px 20px;
+
+    
+
+    
+}
+.section_footer{
+    display: flex;
+    justify-content: center;
+    height:450px;
+    width:90%;
+    margin: 0 50px;
+}
+.section_footer #black_box_logo{
+    height:100%;
+    opacity: 0.8;
+    border:dashed 3px #45585D;
+}
+.section_footer #office_logo{
+    height:80%;
+    opacity:0.8;
+    border:dashed 3px #45585D;
+}
+
+.section .about_info div{
+    height: fit-content;
+    width:400px;
+    padding:10px;
+    border-radius:4%;
+
+
+}
+.section .about_info div h4{
+    color: black;
+    width:98%;
+    padding: 6px 0;
+    margin-bottom:20px;
+    border-bottom:#45585D 3px solid;
+}
+.section .about_info div p{
+    color: black;
+}
 .section_header{
     width: 100%;
     height: 60px;
@@ -195,101 +247,6 @@
 
     font-size: 20px;
     line-height: 60px;
-}
-
-.section_shop{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.prod_header{
-    width: 100%;
-    height:60px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-
-    line-height: 60px;
-
-    border-bottom: #CFD0D0 solid 6px;
-    border-top: #CFD0D0 solid 6px;
-
-    font-weight: bold;
-    font-size: 19px;
-    text-align: center;
-}
-
-.prod_row{
-    display: flex;
-    justify-content: center;
-    height: 425px;
-
-    width: 80%;
-}
-
-.prod{
-    width:25%;
-    height: 365px;
-    padding:15px 15px 45px 15px;
-    display: flex;
-    flex-direction: column;
-    border: solid #45585D 3px;
-    border-radius: 10%;
-    cursor: pointer;
-}
-
-.prod:hover{
-    border: 3px solid #45585d48;
-}
-
-.prod:not(:last-of-type){
-    margin-right: 12.5%;
-}
-
-.prod>img{
-    padding:0 10px;
-    margin-bottom: 25px;
-    height:160px;
-    height:140px;
-}
-
-.prod_name{
-    padding-bottom:4px;
-    padding-top:6px;
-
-    font-weight: bold;
-    border-bottom: 3px #45585D solid;
-}
-.prod_cost{
-    padding-top:4px;
-    padding-bottom:4px;
-    margin-bottom:5px;
-}
-.prod .buy_button{
-    padding:5px;
-    margin-top:15px;
-    width:130px;
-    height:30px;
-    text-align: center;
-    align-self: center;
-    font-size:15px;
-
-    cursor: pointer;
-
-
-    font-weight:bold;
-    background-color: none;
-    border: 3px #45585D solid;
-
-}
-.prod .buy_button:active{
-    background-color:#45585D;
-    color:#CFD0D0;
-    border: 3px #CFD0D0 solid;
-}
-.prod_descript{
-    height:100px;
 }
 .footer{
     height:140px;
