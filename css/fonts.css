@@ -5,7 +5,7 @@
     font-family: 'Playfair Display', serif;
 }
 
-.side_nav div, .prod_cost, .prod_descript, .gmail a,.tele p,.addr p{
+.side_nav div, .prod_cost, .buy_button, .prod_descript, .gmail a,.tele p,.addr p{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
