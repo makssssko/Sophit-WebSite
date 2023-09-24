@@ -68,7 +68,9 @@
 }
 
 .header_nav .main_puncts ul li:hover{
-    border-bottom: solid 2px black;
+    box-shadow: 0 2px #45585D;
+
+    transition: 0.3s;
 }
 
 .header_nav .main_puncts ul input{
@@ -133,7 +135,9 @@
 }
 
 .header_nav .sub_puncts #basket:hover,#favourites:hover{
-    border-bottom: 2px solid black;
+    box-shadow: 0 2px #45585D;
+
+    transition: 0.3s;
 }
 /*Основная часть сайта MAIN*/
 .main{

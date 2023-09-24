@@ -60,7 +60,7 @@
     padding: 7px 12px;
 
     cursor: pointer;
-    
+
     font-weight: bold;
     
 }
@@ -70,7 +70,9 @@
 }
 
 .header_nav .main_puncts ul li:hover{
-    border-bottom: solid 2px black;
+    box-shadow: 0 2px #45585D;
+
+    transition: 0.3s;
 }
 
 .header_nav .main_puncts ul input{
@@ -132,7 +134,9 @@
 }
 
 .header_nav .sub_puncts #basket:hover,#favourites:hover{
-    border-bottom: 2px solid black;
+    box-shadow:0px 2px #45585D;
+
+    transition: 0.3s;
 }
 /*Основная часть сайта MAIN*/
 .main{
@@ -245,6 +249,8 @@
 
 .prod:hover{
     border: 3px solid #45585d48;
+
+    transition: 0.3s;
 }
 
 .prod:not(:last-of-type){
@@ -291,6 +297,8 @@
 }
 .prod .buy_button:active{
     background-color:#45585D;
+
+    transition: 0.15s;
 
     color:#CFD0D0;
 
